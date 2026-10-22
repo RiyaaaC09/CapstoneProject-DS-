@@ -1,0 +1,105 @@
+Table,Column,Issue_Injected,Rows_Affected,How_To_Detect,How_To_Fix
+Dim_Member,Age,Impossible / out-of-range ages,60,WHERE Age<18 OR Age>100,"Set invalid to NULL, impute median by age band"
+Dim_Member,Age,Age stored as text with unit ('45 yrs'),30,TRY_CAST fails,Strip non-digits and cast to INT
+Dim_Member,Age,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Dim_Member,Gender,Inconsistent category labels: F/M/female/MALE/trailing spaces,1400,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member,Region,Inconsistent category labels: abbreviations / case / spelling (Region),1000,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member,Race_Ethnicity,Inconsistent category labels: short forms / case (Race_Ethnicity),1000,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member,Race_Ethnicity,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),300,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Dim_Member,Home_Facility_ID,Invalid Home_Facility_ID (no match in Dim_Facility),40,LEFT JOIN Dim_Facility -> NULL,Map to Region default facility or NULL
+Dim_Member,Member_ID,"Member_ID formatting noise (lower-case, spaces, 'KPM-' hyphen)",40,LEFT JOIN to Dim_Member drops rows,"TRIM, UPPER, remove hyphen"
+Dim_Member,Member_ID,Exact duplicate rows (same primary key),110,GROUP BY pk HAVING COUNT(*)>1,ROW_NUMBER() OVER (PARTITION BY pk) = 1
+Dim_Member,Member_ID,"Conflicting duplicate rows (same Member_ID, different Age / Region text)",40,GROUP BY Member_ID HAVING COUNT(DISTINCT Age)>1,Keep one record per member by survivorship rule
+Dim_Member_Profile,Plan_Type,Inconsistent category labels: Plan_Type spelling,1500,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member_Profile,Digital_Engagement,Inconsistent category labels: case/abbreviation,1000,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member_Profile,Preferred_Language,Inconsistent category labels: language labels,1000,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member_Profile,Family_History_Diabetes,Inconsistent category labels: Yes/No coding,1000,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member_Profile,Family_History_Hypertension,Inconsistent category labels: Yes/No coding,1000,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Dim_Member_Profile,SDOH_Vulnerability_Index,SDOH index outside valid 1-10 range,60,WHERE idx NOT BETWEEN 1 AND 10,Set to NULL / impute
+Dim_Member_Profile,Tenure_Years,Impossible tenure values,30,WHERE Tenure_Years<0 OR >60,Recompute from Member_Since_Date
+Dim_Member_Profile,Member_Since_Date,"Mixed date formats (MM/DD/YYYY, DD-Mon-YYYY, YYYY/MM/DD, DD.MM.YYYY)",1500,TRY_CAST / pd.to_datetime fails on subset,Parse with explicit formats -> ISO date
+Dim_Member_Profile,SDOH_Vulnerability_Index,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),200,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Dim_Member_Profile,Preferred_Language,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),200,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Dim_Member_Profile,Tenure_Years,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Dim_Member_Profile,Member_ID,"Member_ID formatting noise (lower-case, spaces, 'KPM-' hyphen)",40,LEFT JOIN to Dim_Member drops rows,"TRIM, UPPER, remove hyphen"
+Dim_Member_Profile,Member_ID,Exact duplicate rows (same primary key),100,GROUP BY pk HAVING COUNT(*)>1,ROW_NUMBER() OVER (PARTITION BY pk) = 1
+Fact_Wellness_Program,Smoking_Status,Inconsistent category labels: Smoker / Non-Smoker coding,1800,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Wellness_Program,Screening_Participation,Inconsistent category labels: Yes/No coding,1800,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Wellness_Program,Program_Status,Inconsistent category labels: Program_Status wording,1500,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Wellness_Program,Exercise_Frequency,Impossible weekly exercise sessions,60,WHERE val<0 OR val>7,Cap/NULL then impute
+Fact_Wellness_Program,Exercise_Frequency,Exercise recorded as words,22,TRY_CAST fails,Map words to numbers
+Fact_Wellness_Program,Diet_Score,Diet_Score outside 0-100,75,WHERE val<0 OR val>100,Set to NULL / winsorise
+Fact_Wellness_Program,Sessions_Attended,Negative / implausible sessions attended,45,WHERE val<0,NULL
+Fact_Wellness_Program,Sessions_Attended,Sessions_Attended > 0 while Program_Status = Not Enrolled,150,cross-field validation,Set to 0 or fix status
+Fact_Wellness_Program,Exercise_Frequency,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Wellness_Program,Diet_Score,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),300,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Wellness_Program,Screening_Participation,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Wellness_Program,Smoking_Status,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Wellness_Program,Record_Date,Future-dated records (2027+) - conflict with Date_Key,45,WHERE Record_Date > '2025-12-31' or <> Date_Key,Rebuild date from Date_Key
+Fact_Wellness_Program,Record_Date,"Mixed date formats (MM/DD/YYYY, DD-Mon-YYYY, YYYY/MM/DD, DD.MM.YYYY)",1500,TRY_CAST / pd.to_datetime fails on subset,Parse with explicit formats -> ISO date
+Fact_Wellness_Program,Member_ID,"Member_ID formatting noise (lower-case, spaces, 'KPM-' hyphen)",90,LEFT JOIN to Dim_Member drops rows,"TRIM, UPPER, remove hyphen"
+Fact_Wellness_Program,Wellness_Record_ID,Exact duplicate rows (same primary key),150,GROUP BY pk HAVING COUNT(*)>1,ROW_NUMBER() OVER (PARTITION BY pk) = 1
+Fact_Wellness_Program,Member_ID + Record_Date,Duplicate business record with a different primary key,75,GROUP BY Member_ID + Record_Date HAVING COUNT(*)>1,Keep first by PK
+Fact_Wellness_Program,Member_ID,Orphan fact rows - Member_ID not present in Dim_Member (extra rows),60,LEFT JOIN Dim_Member WHERE m.Member_ID IS NULL,Delete / quarantine
+Fact_Clinical_Screenings,BMI,Impossible BMI,60,WHERE BMI<12 OR BMI>70,"Set to NULL, recompute if height/weight available"
+Fact_Clinical_Screenings,Glucose,Unit mix-up: mmol/L instead of mg/dL (values ~3-12),150,WHERE Glucose < 30,x18.016 to convert to mg/dL
+Fact_Clinical_Screenings,Glucose,Sentinel / impossible glucose values,45,WHERE Glucose<40 (after unit fix) OR >600,NULL
+Fact_Clinical_Screenings,Cholesterol,Unit mix-up: mmol/L instead of mg/dL (values ~2-8),150,WHERE Cholesterol < 20,x38.67 to convert to mg/dL
+Fact_Clinical_Screenings,Cholesterol,Sentinel / impossible cholesterol,45,WHERE Cholesterol<50 (after unit fix) OR >500,NULL
+Fact_Clinical_Screenings,HbA1c,HbA1c given in mmol/mol or invalid,45,WHERE HbA1c>20 OR <3,Convert IFCC->NGSP or NULL
+Fact_Clinical_Screenings,Blood_Pressure,"Inconsistent BP text format (120-80, 120/80 mmHg, 120 / 80, 120|80)",900,regex on Blood_Pressure,Standardise and split into Systolic/Diastolic
+Fact_Clinical_Screenings,Blood_Pressure/Systolic_BP/Diastolic_BP,Systolic and diastolic swapped,60,WHERE Systolic_BP <= Diastolic_BP,Swap back
+Fact_Clinical_Screenings,Systolic_BP,Impossible systolic BP,45,WHERE Systolic<70 OR >250,NULL
+Fact_Clinical_Screenings,Screening_Type,Inconsistent category labels: Screening_Type wording,2250,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Clinical_Screenings,Existing_Diabetes_Flag,Inconsistent category labels: 0/1 stored as Y/N/TRUE/FALSE,600,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Clinical_Screenings,Existing_Hypertension_Flag,Inconsistent category labels: 0/1 stored as Y/N/TRUE/FALSE,600,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Clinical_Screenings,Develops_Chronic_Disease_12M,Missing target label,45,WHERE target IS NULL,Drop from model training
+Fact_Clinical_Screenings,BMI,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Clinical_Screenings,Glucose,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Clinical_Screenings,Cholesterol,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Clinical_Screenings,Blood_Pressure,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),120,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Clinical_Screenings,HbA1c,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),300,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Clinical_Screenings,Screening_Date,Future-dated screenings (conflict with Date_Key),45,WHERE Screening_Date > '2025-12-31',Rebuild from Date_Key
+Fact_Clinical_Screenings,Screening_Date,"Mixed date formats (MM/DD/YYYY, DD-Mon-YYYY, YYYY/MM/DD, DD.MM.YYYY)",1500,TRY_CAST / pd.to_datetime fails on subset,Parse with explicit formats -> ISO date
+Fact_Clinical_Screenings,Member_ID,"Member_ID formatting noise (lower-case, spaces, 'KPM-' hyphen)",90,LEFT JOIN to Dim_Member drops rows,"TRIM, UPPER, remove hyphen"
+Fact_Clinical_Screenings,Facility_ID,Invalid Facility_ID,60,LEFT JOIN Dim_Facility,NULL / map
+Fact_Clinical_Screenings,Screening_ID,Exact duplicate rows (same primary key),150,GROUP BY pk HAVING COUNT(*)>1,ROW_NUMBER() OVER (PARTITION BY pk) = 1
+Fact_Clinical_Screenings,Member_ID + Screening_Date,Duplicate business record with a different primary key,75,GROUP BY Member_ID + Screening_Date HAVING COUNT(*)>1,Keep first by PK
+Fact_Clinical_Screenings,Member_ID,Orphan fact rows - Member_ID not present in Dim_Member (extra rows),60,LEFT JOIN Dim_Member WHERE m.Member_ID IS NULL,Delete / quarantine
+Fact_Claims_Utilization,Costs / Pharmacy_Cost,Total Costs does not equal sum of cost components,300,WHERE ABS(Costs - (Outpatient+ER+Inpatient+Pharmacy)) > 1,Recompute Costs from components
+Fact_Claims_Utilization,Preventive_Care_Visits,Preventive visits exceed total Visits,75,WHERE Preventive_Care_Visits > Visits,Cap at Visits
+Fact_Claims_Utilization,Costs,Negative annual cost (reversals / refunds),60,WHERE Costs < 0,Investigate; take ABS or exclude
+Fact_Claims_Utilization,Costs,Zero annual cost despite visits/medications,75,WHERE Costs = 0 AND Visits > 0,Flag/impute
+Fact_Claims_Utilization,Costs,Data-entry error: cost inflated x100 (decimal shift),22,Outlier / IQR on Costs vs components,Correct or cap
+Fact_Claims_Utilization,Costs,Currency stored as text with $ and commas,450,TRY_CAST fails,"REPLACE('$' , ',') then cast"
+Fact_Claims_Utilization,Visits,Negative / implausible visits,45,WHERE Visits<0 OR Visits>100,NULL
+Fact_Claims_Utilization,Medications,Negative / implausible medication count,45,WHERE Medications<0 OR >30,NULL
+Fact_Claims_Utilization,Period_End_Date,Period_End_Date year does not match Claim_Year,45,WHERE YEAR(Period_End_Date)<>Claim_Year,Rebuild from Claim_Year
+Fact_Claims_Utilization,Visits,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Claims_Utilization,Medications,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Claims_Utilization,Chronic_Condition_Count,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),225,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Claims_Utilization,ER_Visits,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),120,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Claims_Utilization,Period_End_Date,"Mixed date formats (MM/DD/YYYY, DD-Mon-YYYY, YYYY/MM/DD, DD.MM.YYYY)",1500,TRY_CAST / pd.to_datetime fails on subset,Parse with explicit formats -> ISO date
+Fact_Claims_Utilization,Member_ID,"Member_ID formatting noise (lower-case, spaces, 'KPM-' hyphen)",90,LEFT JOIN to Dim_Member drops rows,"TRIM, UPPER, remove hyphen"
+Fact_Claims_Utilization,Claim_Record_ID,Exact duplicate rows (same primary key),150,GROUP BY pk HAVING COUNT(*)>1,ROW_NUMBER() OVER (PARTITION BY pk) = 1
+Fact_Claims_Utilization,Member_ID + Claim_Year,Duplicate business record with a different primary key,75,GROUP BY Member_ID + Claim_Year HAVING COUNT(*)>1,Keep first by PK
+Fact_Claims_Utilization,Member_ID,Orphan fact rows - Member_ID not present in Dim_Member (extra rows),60,LEFT JOIN Dim_Member WHERE m.Member_ID IS NULL,Delete / quarantine
+Fact_Member_Feedback,Survey_Comments,Leading/trailing whitespace and tabs,750,WHERE col <> TRIM(col),TRIM
+Fact_Member_Feedback,Survey_Comments,ALL-CAPS comments,300,WHERE col = UPPER(col),Lower-case in text cleaning
+Fact_Member_Feedback,Survey_Comments,HTML tags / entities in text,180,LIKE '%<%' OR '%&amp;%',Strip HTML (regex / BeautifulSoup)
+Fact_Member_Feedback,Survey_Comments,Emojis / emoticons / repeated punctuation,150,non-ASCII scan,Remove or map emojis
+Fact_Member_Feedback,Survey_Comments,Placeholder / non-informative comments,225,length < 5 or in list,Treat as missing
+Fact_Member_Feedback,Survey_Comments,Non-English comments,75,language detection,Translate or exclude from English NLP
+Fact_Member_Feedback,Program_Feedback,Lower-case / inconsistent text casing,150,case scan,Normalise case
+Fact_Member_Feedback,Satisfaction_Score,Satisfaction_Score outside 1-5,60,WHERE score NOT BETWEEN 1 AND 5,NULL
+Fact_Member_Feedback,Satisfaction_Score,Satisfaction_Score as words,30,TRY_CAST fails,Map words to numbers
+Fact_Member_Feedback,Likelihood_To_Recommend,Likelihood_To_Recommend outside 0-10,45,WHERE val NOT BETWEEN 0 AND 10,NULL
+Fact_Member_Feedback,Feedback_Channel,Inconsistent category labels: channel naming,1500,GROUP BY col -> too many distinct values,Trim/upper-case and map to standard list
+Fact_Member_Feedback,Satisfaction_Score,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),150,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Member_Feedback,Likelihood_To_Recommend,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),180,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Member_Feedback,Facility_ID,Extra missing values in mixed forms (blank / NA / N/A / null / - / ? / Unknown),120,COUNT of non-standard null tokens; profile distinct values,"Standardise to NULL, then impute/flag"
+Fact_Member_Feedback,Feedback_Date,"Mixed date formats (MM/DD/YYYY, DD-Mon-YYYY, YYYY/MM/DD, DD.MM.YYYY)",1500,TRY_CAST / pd.to_datetime fails on subset,Parse with explicit formats -> ISO date
+Fact_Member_Feedback,Member_ID,"Member_ID formatting noise (lower-case, spaces, 'KPM-' hyphen)",90,LEFT JOIN to Dim_Member drops rows,"TRIM, UPPER, remove hyphen"
+Fact_Member_Feedback,Feedback_ID,Exact duplicate rows (same primary key),150,GROUP BY pk HAVING COUNT(*)>1,ROW_NUMBER() OVER (PARTITION BY pk) = 1
+Fact_Member_Feedback,Member_ID + Feedback_Date,Duplicate business record with a different primary key,75,GROUP BY Member_ID + Feedback_Date HAVING COUNT(*)>1,Keep first by PK
+Fact_Member_Feedback,Member_ID,Orphan fact rows - Member_ID not present in Dim_Member (extra rows),60,LEFT JOIN Dim_Member WHERE m.Member_ID IS NULL,Delete / quarantine
