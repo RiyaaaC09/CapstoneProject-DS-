@@ -1,0 +1,1622 @@
+Member_ID,Risk_Probability,Risk_Category,Cluster_Name,AI_Recommendation
+KPM06779,0.99153227,High Risk,Emerging Risk Members,"Here is the response:
+
+Risk Summary
+-------------
+This 76-year-old member is at high risk for diabetes due to their elevated BMI and blood glucose levels. They are a non-smoker and do not have hypertension.
+
+Clinical Recommendations
+------------------------
+• Refer the member to the Diabetes Prevention Program for education, nutrition, and prevention support.
+• Consider asking for the member's healthcare provider's advice and direction if they are struggling to meet their health goals.
+
+Lifestyle Interventions
+-----------------------
+• Encourage the member to participate in the Active Lifestyle Initiative for activity coaching and healthy habits.
+
+Recommended Wellness Programs
+-----------------------------
+• Suggest the member consider joining the National DPP if they have prediabetes.
+
+Preventive Screenings
+---------------------
+• No specific preventive screenings are recommended based on the retrieved context.
+
+Business / Care Management Actions
+----------------------------------
+• Refer the member to specialists, such as a registered dietitian or mental health counselor, if they are struggling to meet their health goals.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved context, particularly the Wellness Campaign Recommendation Catalog and the Population Health Findings and Strategic Guidance. The information on smoking and diabetes prevention also provides a basis for the clinical recommendations."
+KPM06447,0.8435509,Low Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+The member has a low risk category with a predicted probability of 0.8435509. Their age is 53.0, BMI is 32.9, and blood glucose level is 168.0. They are a non-smoker and do not have hypertension.
+
+Clinical Recommendations
+------------------------
+• Diabetes Prevention Program: Targeted education, nutrition, and prevention support.
+
+Lifestyle Interventions
+-----------------------
+• Weight-management support
+• Nutrition counseling
+• Diabetes-prevention education
+• Physical-activity interventions
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program
+
+Preventive Screenings
+---------------------
+• Preventive screening engagement
+
+Business / Care Management Actions
+----------------------------------
+• Case management
+• Transitional care
+• Readmission prevention
+• Utilization management
+• Coordinated care planning
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the Wellness Campaign Recommendation Catalog, which highlights the Diabetes Prevention Program as a targeted approach for members with elevated glucose, HbA1c, and BMI. The catalog also suggests lifestyle interventions such as weight-management support, nutrition counseling, and physical-activity interventions. Additionally, the catalog recommends preventive screening engagement and business/care management actions such as case management, transitional care, and readmission prevention."
+KPM09655,0.8968835,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 57-year-old member with a BMI of 34.3, blood glucose level of 109.0, and hypertension, your risk category is Low Risk, with a predicted probability of 0.8968835.
+
+Clinical Recommendations
+------------------------
+• Given your elevated blood glucose level, I recommend referring to the Diabetes Prevention Program (DPP) for education, nutrition, and prevention support.
+• As a hypertensive patient, I suggest participating in the Hypertension Awareness Program for monitoring and education.
+
+Lifestyle Interventions
+-----------------------
+• To promote a healthy lifestyle, I recommend joining the Active Lifestyle Initiative for activity coaching and healthy habits.
+
+Recommended Wellness Programs
+-----------------------------
+• The Healthy Aging Program is also recommended for preventive care and healthy aging support.
+
+Preventive Screenings
+---------------------
+• No specific preventive screenings are recommended based on the provided context.
+
+Business / Care Management Actions
+----------------------------------
+• As your health care provider, I recommend asking for advice and direction if you're struggling to meet your health goals.
+• If needed, consider referring to specialists, such as a registered dietitian or mental health counselor, for additional support.
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program (DPP) recommendation is supported by the ""On-your-way-to-preventing-type-2-diabetes.pdf"" source. The Hypertension Awareness Program recommendation is supported by the ""Wellness_Campaign_Recommendation_Catalog 2 2.docx"" source. The Active Lifestyle Initiative recommendation is supported by the same source. The Healthy Aging Program recommendation is also supported by the same source."
+KPM06215,0.8881961,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+The member has a low risk category with a predicted probability of 0.8881961. However, with a BMI of 32.6 and blood glucose level of 120.0, it is essential to monitor and manage diabetes risk indicators.
+
+Clinical Recommendations
+------------------------
+• Recommendation 1: Target Diabetes Prevention
+• Recommendation 2: Focus on Multi-Chronic Members
+• Recommendation 3: Expand Lifestyle Programs
+
+Lifestyle Interventions
+-----------------------
+• Intervention 1: Prioritize diabetes screening and glucose monitoring
+• Intervention 2: Enhance care-management services for multi-chronic members
+• Intervention 3: Increase wellness, exercise, and health-coaching programs
+
+Recommended Wellness Programs
+-----------------------------
+• Program 1: None mentioned
+• Program 2: None mentioned
+• Program 3: None mentioned
+
+Preventive Screenings
+---------------------
+• Screening 1: Diabetes screening
+• Screening 2: None mentioned
+• Screening 3: None mentioned
+
+Business / Care Management Actions
+----------------------------------
+• Action 1: Provide preventive interventions for members aged 60 years and older
+• Action 2: Monitor high medication utilizers and provide medication review and adherence support
+• Action 3: None mentioned
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the Business Recommendations Repository (Business_Recommendations_RAG 1.docx), On-your-way-to-preventing-type-2-diabetes.pdf, and Doc03_High_Risk_Member_Guide 2.docx."
+KPM04556,0.8992367,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+This member is at a low risk category, with a predicted probability of 0.8992367, indicating a relatively low risk of developing type 2 diabetes. However, they have a BMI of 37.3, which suggests a need for attention to their weight management.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly
+• Consult with a healthcare provider to discuss personalized goals and strategies for preventing type 2 diabetes
+
+Lifestyle Interventions
+-----------------------
+• Promote regular exercise and healthy habits through coaching and support
+• Encourage healthy nutrition and meal planning to support weight management and overall health
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (DPP) to educate and support members in preventing type 2 diabetes
+• Healthy Aging Program to provide preventive care and support for older adults
+
+Preventive Screenings
+---------------------
+• Annual wellness visits to assess health and detect any potential issues early
+• Preventive screenings as recommended by a healthcare provider
+
+Business / Care Management Actions
+----------------------------------
+• Refer members to specialists, such as registered dietitians or mental health counselors, as needed
+• Offer weight-management support and nutrition counseling to help members achieve their goals
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by sources such as ""On-your-way-to-preventing-type-2-diabetes.pdf"" and ""Wellness_Campaign_Recommendation_Catalog 2 2.docx""."
+KPM02488,0.9927492,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 84-year-old member is at low risk with a predicted probability of 0.9927492, indicating a low likelihood of developing type 2 diabetes. However, they have a BMI of 34.3, which may indicate a risk factor for developing chronic conditions.
+
+Clinical Recommendations
+------------------------
+• Annual wellness visits to monitor health status and prevent disease progression.
+• Preventive screenings to identify potential health issues early on.
+
+Lifestyle Interventions
+-----------------------
+• Healthy nutrition: Encourage a balanced diet to support overall health.
+• Regular exercise: Recommend physical activity to maintain physical function and prevent chronic conditions.
+
+Recommended Wellness Programs
+-----------------------------
+• Healthy Aging Program: Targeted support for older adults to promote preventive care and healthy aging.
+• Preventive Screening Program: Routine screenings to identify potential health issues early on.
+
+Preventive Screenings
+---------------------
+• Blood glucose monitoring to track and manage blood sugar levels.
+
+Business / Care Management Actions
+----------------------------------
+• Eligibility assessment: Determine the member's eligibility for wellness programs and preventive screenings.
+• Care coordination: Coordinate care with healthcare providers to ensure seamless transitions and optimal health outcomes.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following retrieved sources:
+• Detailed_Population_Segmentation_Knowledge_Base.docx: Provides guidance on population health importance and recommended actions for emerging risk members.
+• Wellness_Campaign_Recommendation_Catalog 2 2.docx: Offers a catalog of wellness programs and recommended actions for members at various risk levels.
+• WHO-HEP-HPR-RUN-2021.2-eng.pdf: Provides global guidance on monitoring physical activity and sedentary behaviors, which can inform lifestyle interventions."
+KPM07450,0.81252253,Low Risk,High-Risk Chronic Members,"**Risk Summary**
+-------------
+This member is categorized as Low Risk, with a predicted probability of 0.81252253.
+
+**Clinical Recommendations**
+------------------------
+• No specific clinical recommendations are generated for this member.
+
+**Lifestyle Interventions**
+-----------------------
+• No specific lifestyle interventions are generated for this member.
+
+**Recommended Wellness Programs**
+-----------------------------
+• Diabetes Prevention Program (Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support.)
+
+**Preventive Screenings**
+---------------------
+• No specific preventive screenings are generated for this member.
+
+**Business / Care Management Actions**
+----------------------------------
+• No specific business/care management actions are generated for this member.
+
+**Source-Based Reasoning**
+----------------------
+The recommendations are primarily based on the retrieved context, specifically the Wellness Campaign Recommendation Catalog and the retrieved member profile."
+KPM02018,0.848091,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 75-year-old member is at high risk for developing type 2 diabetes, with a BMI of 40.0 and blood glucose levels of 112.0. Stopping smoking and maintaining a healthy lifestyle can reduce this risk.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels and adjust medication as needed
+• Refer to a registered dietitian or mental health counselor for additional support
+
+Lifestyle Interventions
+-----------------------
+• Promote healthy eating habits and exercise routines
+• Encourage stress management techniques to reduce cortisol levels
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support.)
+• Active Lifestyle Initiative (Target: Exercise risk. Benefits: Activity coaching and healthy habits.)
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program (Target: Members requiring routine screening and preventive engagement.)
+
+Business / Care Management Actions
+----------------------------------
+• Offer care management resources for members with multiple chronic conditions
+• Provide education and support for members at high risk for developing type 2 diabetes
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program and Active Lifestyle Initiative are supported by the retrieved context's Wellness Campaign Recommendation Catalog. The Preventive Screening Program is also supported by the same catalog. The care management actions are based on the Population Health Findings and Strategic Guidance, which identified high-risk members as requiring sustained monitoring and disease-management support."
+KPM04863,0.8963418,Low Risk,Healthy Low-Risk Members,"Risk Summary
+-------------
+This 46-year-old individual has a BMI of 35.4, indicating obesity. Their blood glucose level is 102.0, which is within the normal range. They are a non-smoker and do not have hypertension. Their predicted probability of developing type 2 diabetes is 0.8963418, categorizing them as being at low risk.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly to ensure they remain within the normal range.
+• No specific clinical recommendations are available based on the provided information.
+
+Lifestyle Interventions
+-----------------------
+• Encourage regular physical activity to improve overall health and reduce the risk of chronic diseases.
+• Provide education on healthy eating habits and a balanced diet.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: This program targets elevated glucose, HbA1c, and BMI, providing education, nutrition, and prevention support.
+• Active Lifestyle Initiative: This program targets exercise risk, offering activity coaching and healthy habits.
+• Healthy Aging Program: This program targets older adults, providing preventive care and healthy aging support.
+
+Preventive Screenings
+---------------------
+• No specific screenings are recommended based on the provided information.
+
+Business / Care Management Actions
+----------------------------------
+• No specific business or care management actions are recommended based on the provided information.
+
+Source-Based Reasoning
+----------------------
+The retrieved sources, particularly the Wellness Campaign Recommendation Catalog and the Diabetes Prevention Program, support the recommended wellness programs and lifestyle interventions."
+KPM08054,0.984656,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This member is at high risk for developing type 2 diabetes, with a predicted probability of 0.984656. Their age, BMI, and blood glucose levels also suggest a higher risk.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly to track progress and identify potential issues.
+• Consider enrolling in the Diabetes Prevention Program to receive education and support for preventing type 2 diabetes.
+
+Lifestyle Interventions
+-----------------------
+• Engage in regular physical activity, such as through the Active Lifestyle Initiative, to improve overall health and reduce risk of developing type 2 diabetes.
+• Follow a healthy eating plan, such as through the Wellness Campaign Recommendation Catalog, to manage blood glucose levels and promote weight loss.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: Targeted education and support for preventing type 2 diabetes.
+• Healthy Aging Program: Preventive care and support for older adults, which may be beneficial for this member given their age.
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program: Regular screenings for members requiring routine screening and preventive engagement.
+
+Business / Care Management Actions
+----------------------------------
+• Care Management Program: Targeted care management for members with multiple chronic conditions and complex care needs.
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program recommendation is supported by the retrieved context, which suggests that this program may be beneficial for members at high risk for developing type 2 diabetes. The need for regular physical activity and healthy eating habits is also supported by the context, which highlights the importance of preventing type 2 diabetes through lifestyle interventions."
+KPM08227,0.8678818,High Risk,Emerging Risk Members,"**Risk Summary**
+----------------
+As a 73-year-old individual with a BMI of 35.0 and blood glucose level of 118.0, you are at a high risk of developing type 2 diabetes.
+
+**Clinical Recommendations**
+------------------------
+• Monitor blood glucose levels regularly to track any changes.
+• Consult with your healthcare provider to develop a personalized plan to manage your risk factors.
+
+**Lifestyle Interventions**
+-----------------------
+• Engage in regular physical activity to help manage your weight and reduce your risk of developing type 2 diabetes.
+• Consider joining a diabetes prevention program, such as the National DPP, to receive education and support in managing your risk factors.
+
+**Recommended Wellness Programs**
+-----------------------------
+• Diabetes Prevention Program: Targeted at individuals with elevated glucose, HbA1c, and BMI, this program provides education, nutrition, and prevention support.
+• Active Lifestyle Initiative: Focuses on exercise risk and offers activity coaching and healthy habits.
+
+**Preventive Screenings**
+---------------------
+• Regular health check-ups with your healthcare provider to monitor your blood glucose levels and overall health.
+
+**Business / Care Management Actions**
+----------------------------------
+• Refer the individual to specialists, such as registered dietitians or mental health counselors, to help manage specific challenges.
+• Consider enrolling the individual in a care management program, such as the Care Management Program, to receive coordinated healthcare interventions.
+
+**Source-Based Reasoning**
+----------------------
+The recommendations are supported by the retrieved sources, including the ""On-your-way-to-preventing-type-2-diabetes.pdf"" and the ""Wellness_Campaign_Recommendation_Catalog 2 2.docx""."
+KPM09192,0.8761525,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 63-year-old individual with a BMI of 37.9, blood glucose level of 101.0, and a smoking status of smoker, the predicted probability of developing type 2 diabetes is 0.8761525, which falls under the low-risk category. However, smoking is a known cause of type 2 diabetes, and it is essential to address this risk factor to prevent or manage diabetes.
+
+Clinical Recommendations
+------------------------
+• Recommendation 1: Target Diabetes Prevention - Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs for members with elevated diabetes risk indicators.
+• Recommendation 2: Focus on Multi-Chronic Members - Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions.
+• Recommendation 3: Expand Lifestyle Programs - Increase wellness, exercise, and health-coaching programs to reduce exercise-related risk.
+
+Lifestyle Interventions
+-----------------------
+Information not found in the knowledge base.
+
+Recommended Wellness Programs
+-----------------------------
+• On-your-way-to-preventing-type-2-diabetes.pdf suggests that joining a community or sharing health goals with others can help stick to health goals.
+
+Preventive Screenings
+---------------------
+• The 2014 Surgeon General’s Report highlights the importance of diabetes screening for smokers.
+
+Business / Care Management Actions
+----------------------------------
+• Business Recommendations Repository recommends prioritizing senior members, developing targeted preventive interventions for members aged 60 years and older.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved sources, specifically the Business Recommendations Repository, the 2014 Surgeon General’s Report, and the On-your-way-to-preventing-type-2-diabetes.pdf."
+KPM09140,0.8544946,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As an 80-year-old individual with a BMI of 32.8 and blood glucose level of 113.0, you are at a low risk category. However, it is essential to monitor your health and take proactive steps to prevent the development of type 2 diabetes.
+
+Clinical Recommendations
+------------------------
+• Consider enrolling in the Diabetes Prevention Program to receive education, nutrition guidance, and prevention support.
+
+Lifestyle Interventions
+-----------------------
+• Focus on maintaining a healthy weight through a balanced diet and regular physical activity.
+• Monitor your blood glucose levels and adjust your lifestyle accordingly.
+
+Recommended Wellness Programs
+-----------------------------
+• The Healthy Aging Program may be beneficial for you, as it provides preventive care and healthy aging support.
+
+Preventive Screenings
+---------------------
+• Regular blood glucose monitoring is crucial to track your progress and make informed decisions about your health.
+
+Business / Care Management Actions
+----------------------------------
+• No specific business or care management actions are recommended at this time, as you are at a low risk category.
+
+Source-Based Reasoning
+----------------------
+The recommendations are primarily supported by the Diabetes Prevention Program and the Healthy Aging Program, which are outlined in the retrieved context."
+KPM08407,0.9021701,Low Risk,Emerging Risk Members,"Here is the response:
+
+Risk Summary
+-------------
+The member is 57 years old, with a BMI of 30.5 and blood glucose level of 113.0, indicating a low risk category with a predicted probability of 0.9021701.
+
+Clinical Recommendations
+------------------------
+• None specified
+
+Lifestyle Interventions
+-----------------------
+• None specified
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (target: elevated glucose, HbA1c, BMI; benefits: education, nutrition, prevention support)
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program (target: members requiring routine screening and preventive engagement)
+
+Business / Care Management Actions
+----------------------------------
+• None specified
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program recommendation is supported by the Wellness Campaign Recommendation Catalog. The Preventive Screening Program recommendation is supported by the same catalog."
+KPM00231,0.8209009,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 67-year-old individual with a BMI of 33.1 and blood glucose level of 97.0, you are at a low risk category with a predicted probability of 0.8209009. However, it is essential to take proactive steps to prevent the development of type 2 diabetes and other health complications.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly to track any changes or trends.
+• Consider consulting with a healthcare provider to discuss personalized goals and strategies for maintaining a healthy weight and glucose level.
+
+Lifestyle Interventions
+-----------------------
+• Engage in physical activity to help manage weight and improve overall health. (Source: WHO-HEP-HPR-RUN-2021.2-eng.pdf)
+• Consider participating in the Diabetes Prevention Program (DPP) to receive education, nutrition, and prevention support. (Source: Wellness_Campaign_Recommendation_Catalog 2 2.docx)
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (DPP) - Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support. (Source: Wellness_Campaign_Recommendation_Catalog 2 2.docx)
+
+Preventive Screenings
+---------------------
+• None specified for this individual.
+
+Business / Care Management Actions
+----------------------------------
+• None specified for this individual.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the sources provided, including the Diabetes Prevention Program (DPP) and the World Health Organization's (WHO) resources on physical activity and sedentary behavior."
+KPM03751,0.9020148,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This member is at a high risk category with a predicted probability of 0.9020148. They have a BMI of 35.0, blood glucose level of 107.0, and are at risk for hypertension.
+
+Clinical Recommendations
+------------------------
+• Diabetes Prevention Program
+• Hypertension Awareness Program
+• Preventive Screening Program
+
+Lifestyle Interventions
+-----------------------
+• Regular exercise
+• Healthy nutrition
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program
+• Healthy Aging Program
+
+Preventive Screenings
+---------------------
+• Preventive screenings for chronic conditions
+
+Business / Care Management Actions
+----------------------------------
+• Annual wellness visits
+• Continued health engagement
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+• Detailed_Population_Segmentation_Knowledge_Base.docx
+• Wellness_Campaign_Recommendation_Catalog 2 2.docx
+• WHO-HEP-HPR-RUN-2021.2-eng.pdf"
+KPM03233,0.94050324,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 44-year-old individual with a BMI of 34.0 and blood glucose level of 106.0, you are at a low risk category with a predicted probability of 0.94050324.
+
+Clinical Recommendations
+------------------------
+• None found in the retrieved context.
+
+Lifestyle Interventions
+-----------------------
+• Action Example: Calculate your personal weight loss goal to achieve a 5% reduction in weight.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: Targeted at elevated glucose, HbA1c, and BMI, this program offers education, nutrition, and prevention support.
+
+Preventive Screenings
+---------------------
+• None found in the retrieved context that specifically apply to you.
+
+Business / Care Management Actions
+----------------------------------
+• None found in the retrieved context.
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program recommendation is supported by the On-your-way-to-preventing-type-2-diabetes.pdf source, which highlights the importance of education, nutrition, and prevention support in preventing type 2 diabetes. The Action Example is based on the Wellness_Campaign_Recommendation_Catalog 2 2.docx source, which provides a framework for calculating a personal weight loss goal."
+KPM08859,0.94734156,Low Risk,Emerging Risk Members,"Here is the response:
+
+Risk Summary
+-------------
+This member is at a low risk, with a predicted probability of 0.94734156.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly.
+• Continue to manage hypertension.
+
+Lifestyle Interventions
+-----------------------
+• Maintain a healthy weight by reducing BMI to 28.6.
+• Engage in regular exercise to improve overall health.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support.)
+
+Preventive Screenings
+---------------------
+• None recommended for this member's current health status.
+
+Business / Care Management Actions
+----------------------------------
+• Annual wellness visits.
+• Preventive screenings.
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program recommendation is supported by the ""On-your-way-to-preventing-type-2-diabetes.pdf"" source."
+KPM03280,0.95901346,High Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+This member is at high risk for chronic diseases, with a BMI of 34.2 and blood glucose level of 117.0. They are at risk for developing type 2 diabetes and may require targeted case-management and care-coordination efforts to improve outcomes and reduce avoidable utilization.
+
+Clinical Recommendations
+------------------------
+• Case management to address elevated glucose and BMI
+• Transitional care to prevent readmissions
+• Utilization management to reduce hospitalization utilization
+
+Lifestyle Interventions
+-----------------------
+• Weight-management support to reduce BMI
+• Nutrition counseling to promote healthy eating habits
+• Physical-activity interventions to increase exercise levels
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program to educate and support healthy lifestyle changes
+• Healthy Aging Program to promote preventive care and healthy aging support
+
+Preventive Screenings
+---------------------
+• No specific screenings recommended based on this member's profile
+
+Business / Care Management Actions
+----------------------------------
+• Chronic disease management to reduce complications and improve long-term outcomes
+• Care coordination to ensure comprehensive care-management support
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+
+* Detailed_Population_Segmentation_Knowledge_Base.docx: Provides information on population segmentation and high-risk member characteristics.
+* Wellness_Campaign_Recommendation_Catalog 2 2.docx: Offers a catalog of wellness campaigns and programs that can be tailored to the member's needs.
+* On-your-way-to-preventing-type-2-diabetes.pdf: Provides guidance on preventing type 2 diabetes, which is relevant to this member's high-risk profile."
+KPM00093,0.8907846,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 43-year-old member is at high risk for developing type 2 diabetes, with a BMI of 35.0 and blood glucose level of 118.0.
+
+Clinical Recommendations
+------------------------
+• Recommend nutrition education and weight-management support to manage elevated BMI.
+• Consider referring this member to a registered dietitian or mental health counselor to deal with specific challenges.
+
+Lifestyle Interventions
+-----------------------
+• Promote physical activity to help manage elevated BMI and reduce risk of developing type 2 diabetes.
+• Encourage healthy habits and behavior-change support to reduce risk of developing type 2 diabetes.
+
+Recommended Wellness Programs
+-----------------------------
+• The Diabetes Prevention Playbook recommends early prevention-focused interventions, including nutrition education, weight-management support, physical activity promotion, and preventive screening engagement.
+
+Preventive Screenings
+---------------------
+• Conduct regular screenings for diabetes, hypertension, and other chronic conditions to monitor member's health and adjust interventions as needed.
+
+Business / Care Management Actions
+----------------------------------
+• Implement a care coordination plan to ensure this member receives comprehensive care and support to manage their health.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the Population Health Findings and Strategic Guidance, which identified age, BMI, medication utilization, chronic-condition burden, and lifestyle factors as important contributors to overall population health risk. The Diabetes Prevention Playbook also provides guidance on early prevention-focused interventions."
+KPM03578,0.9698695,Low Risk,Emerging Risk Members,"Here is the response using the exact structure:
+
+Risk Summary
+-------------
+The member is at a low risk category with a predicted probability of 0.9698695.
+
+Clinical Recommendations
+------------------------
+• None specified
+
+Lifestyle Interventions
+-----------------------
+• None specified
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (target: elevated glucose, HbA1c, BMI; benefits: education, nutrition, prevention support)
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program (target: members requiring routine screening and preventive engagement)
+
+Business / Care Management Actions
+----------------------------------
+• None specified
+
+Source-Based Reasoning
+----------------------
+The Diabetes Prevention Program recommendation is supported by the retrieved context, specifically the section on ""On-your-way-to-preventing-type-2-diabetes.pdf""."
+KPM01079,0.9071522,Low Risk,Emerging Risk Members,"Here is the generated response using the exact structure:
+
+Risk Summary
+-------------
+The member is at low risk, with a predicted probability of 0.9071522.
+
+Clinical Recommendations
+------------------------
+• No specific clinical recommendations are available based on the member's profile.
+
+Lifestyle Interventions
+-----------------------
+• None
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support.)
+
+Preventive Screenings
+---------------------
+• None
+
+Business / Care Management Actions
+----------------------------------
+• None
+
+Source-Based Reasoning
+----------------------
+The recommendations are primarily based on the Wellness Campaign Recommendation Catalog and the Diabetes Prevention Program, which are supported by the retrieved sources ""On-your-way-to-preventing-type-2-diabetes.pdf"" and ""Wellness_Campaign_Recommendation_Catalog 2 2.docx""."
+KPM09674,0.8429326,High Risk,Emerging Risk Members,"Here is the response using the exact structure:
+
+Risk Summary
+-------------
+As a 71-year-old individual with a BMI of 36, blood glucose level of 119, and smoking status, you are at high risk for developing type 2 diabetes.
+
+Clinical Recommendations
+------------------------
+• Target Diabetes Prevention: Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs for members with elevated diabetes risk indicators.
+• Focus on Multi-Chronic Members: Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions.
+• Expand Lifestyle Programs: Increase wellness, exercise, and health-coaching programs to reduce exercise-related risk.
+• Prioritize Senior Members: Develop targeted preventive interventions for members aged 60 years and older.
+• Medication Management: Monitor high medication utilizers and provide medication review and adherence support.
+
+Lifestyle Interventions
+-----------------------
+Information not found in the knowledge base.
+
+Recommended Wellness Programs
+-----------------------------
+Information not found in the knowledge base.
+
+Preventive Screenings
+---------------------
+• Screening 1: Diabetes screening, glucose monitoring, and nutrition support.
+• Screening 2: Preventive screening engagement for elevated glucose, elevated HbA1c, or elevated BMI.
+• Screening 3: Healthy-aging resources for older adults with growing medication burden and chronic conditions.
+
+Business / Care Management Actions
+----------------------------------
+• Action 1: Prioritize diabetes prevention and screening.
+• Action 2: Provide enhanced care-management services for multi-chronic members.
+• Action 3: Develop targeted preventive interventions for senior members.
+
+Source-Based Reasoning
+----------------------
+The retrieved context supports the clinical recommendations through the ""Target Diabetes Prevention"" recommendation, which is based on the member's elevated diabetes risk indicators. Additionally, the ""Focus on Multi-Chronic Members"" and ""Prioritize Senior Members"" recommendations are supported by the member's profile and the ""Preventive Intervention and Wellness Playbooks"" sources. The ""Expand Lifestyle Programs"" recommendation is supported by the ""Lifestyle Improvement Playbook"" source."
+KPM07687,0.87395525,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+The member is 66 years old, has a BMI of 39.8, and is at high risk for developing type 2 diabetes, with a predicted probability of 0.87395525. They have hypertension and a blood glucose level of 114.0.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly.
+• Manage hypertension through medication and lifestyle changes.
+
+Lifestyle Interventions
+-----------------------
+• Encourage the member to participate in the Diabetes Prevention Program to improve glucose control and prevent type 2 diabetes.
+• Recommend the Active Lifestyle Initiative to promote physical activity and healthy habits.
+
+Recommended Wellness Programs
+-----------------------------
+• The Diabetes Prevention Program is a suitable program for this member, given their high risk for developing type 2 diabetes.
+
+Preventive Screenings
+---------------------
+• Recommend routine screenings for hypertension and glucose control.
+
+Business / Care Management Actions
+----------------------------------
+• Refer the member to a registered dietitian or mental health counselor for guidance on managing their specific challenges.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved context, particularly the Wellness Campaign Recommendation Catalog, which provides evidence-based programs and interventions for members at high risk for developing type 2 diabetes."
+KPM03127,0.887235,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 67-year-old member has a low risk profile, with a BMI of 36.7 and blood glucose level of 107.0. They do not smoke and have hypertension.
+
+Clinical Recommendations
+------------------------
+• Recommendation 1: Target Diabetes Prevention - Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs for members with elevated diabetes risk indicators.
+• Recommendation 2: Focus on Multi-Chronic Members - Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions.
+• Recommendation 3: Expand Lifestyle Programs - Increase wellness, exercise, and health-coaching programs to reduce exercise-related risk.
+
+Lifestyle Interventions
+-----------------------
+• Intervention 1: None (since there is no specific intervention mentioned in the context)
+• Intervention 2: None
+• Intervention 3: None
+
+Recommended Wellness Programs
+-----------------------------
+• Program 1: None (since there is no specific program mentioned in the context)
+• Program 2: None
+• Program 3: None
+
+Preventive Screenings
+---------------------
+• Screening 1: None (since there is no specific screening mentioned in the context)
+• Screening 2: None
+• Screening 3: None
+
+Business / Care Management Actions
+----------------------------------
+• Action 1: Prioritize senior members and develop targeted preventive interventions for members aged 60 years and older.
+• Action 2: None
+• Action 3: Monitor high medication utilizers and provide medication review and adherence support.
+
+Source-Based Reasoning
+----------------------
+The retrieved context provides guidance on diabetes prevention and management, highlighting the importance of preventive screenings, wellness engagement, and care management support. The recommendations are primarily based on the Business Recommendations Repository and On-your-way-to-preventing-type-2-diabetes.pdf."
+KPM04230,0.8834844,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 68-year-old member has a moderate risk of developing type 2 diabetes due to their smoking status, high BMI, and blood glucose levels. They also have hypertension, which is a risk factor for diabetes.
+
+Clinical Recommendations
+------------------------
+• Target Diabetes Prevention: Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs for members with elevated diabetes risk indicators.
+• Focus on Multi-Chronic Members: Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions (hypertension and diabetes).
+• Expand Lifestyle Programs: Increase wellness, exercise, and health-coaching programs to reduce exercise-related risk.
+
+Lifestyle Interventions
+-----------------------
+• Quit Smoking: Encourage the member to quit smoking to reduce their risk of developing type 2 diabetes.
+• Nutrition Support: Offer nutrition support and guidance to help the member manage their blood glucose levels and achieve a healthy weight.
+• Weight Management: Provide weight-management programs and support to help the member achieve and maintain a healthy weight.
+
+Recommended Wellness Programs
+-----------------------------
+• None specified
+
+Preventive Screenings
+---------------------
+• Diabetes Screening: Offer diabetes screening to monitor the member's blood glucose levels and detect any potential issues early on.
+• Blood Pressure Monitoring: Monitor the member's blood pressure to ensure it remains under control and to detect any potential issues with hypertension.
+
+Business / Care Management Actions
+----------------------------------
+• Care Management Support: Provide care management support to the member to help them manage their chronic conditions and prevent complications.
+• Provider Consultation: Refer the member to a healthcare provider for consultation and guidance on managing their chronic conditions.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the ""smoking_and_diabetes.pdf"" and ""Business_Recommendations_RAG 1.docx"" sources, which highlight the importance of quitting smoking and managing chronic conditions to reduce the risk of developing type 2 diabetes."
+KPM01724,0.85875475,Low Risk,Emerging Risk Members,"Here is the response using the exact structure:
+
+Risk Summary
+-------------
+This member is at a low risk category with a predicted probability of 0.85875475.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels and maintain a healthy BMI.
+
+Lifestyle Interventions
+-----------------------
+• Engage in regular physical activity to reduce the risk of developing type 2 diabetes.
+• Consider participating in the Diabetes Prevention Program to receive education and support for preventing diabetes.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (target: elevated glucose, HbA1c, BMI)
+• Healthy Aging Program (target: older adults, benefits: preventive care and healthy aging support)
+
+Preventive Screenings
+---------------------
+• None recommended based on the retrieved context.
+
+Business / Care Management Actions
+----------------------------------
+• None recommended based on the retrieved context.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the sources ""On-your-way-to-preventing-type-2-diabetes.pdf"" and ""Wellness_Campaign_Recommendation_Catalog 2 2.docx""."
+KPM07933,0.90384257,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 75-year-old individual with a BMI of 26.0 and blood glucose level of 85.0, you are at high risk for developing type 2 diabetes. You are a non-smoker and do not have hypertension.
+
+Clinical Recommendations
+------------------------
+• Conduct regular health check-ups to monitor blood glucose levels and track any changes.
+• Consult with your healthcare provider to discuss your risk category and develop a personalized prevention plan.
+
+Lifestyle Interventions
+-----------------------
+• Increase physical activity through the Active Lifestyle Initiative, which provides activity coaching and healthy habits.
+• Focus on a balanced diet and healthy eating habits to manage blood glucose levels.
+
+Recommended Wellness Programs
+-----------------------------
+• Participate in the Diabetes Prevention Program, which provides education, nutrition, and prevention support for individuals at risk of developing type 2 diabetes.
+
+Preventive Screenings
+---------------------
+• Receive regular screenings for diabetes, as recommended by your healthcare provider.
+
+Business / Care Management Actions
+----------------------------------
+• Refer you to a registered dietitian or mental health counselor for additional support and guidance, if needed.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the sources ""On-your-way-to-preventing-type-2-diabetes.pdf"" and ""Detailed_Population_Health_Strategy_Guide.docx"", which provide information on diabetes prevention and management. The ""Wellness_Campaign_Recommendation_Catalog 2 2.docx"" also provides a range of programs and services that can support your health goals."
+KPM03353,0.84310013,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+This member is 65 years old, has a BMI of 30.7, and a blood glucose level of 104.0. They are at low risk, with a predicted probability of 0.84310013.
+
+Clinical Recommendations
+------------------------
+• Annual wellness visits
+• Preventive screenings
+• Healthy nutrition
+• Regular exercise
+• Continued health engagement
+
+Lifestyle Interventions
+-----------------------
+• None specific to this member's profile
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support.)
+
+Preventive Screenings
+---------------------
+• None specific to this member's profile
+
+Business / Care Management Actions
+----------------------------------
+• None specific to this member's profile
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+* Detailed_Population_Segmentation_Knowledge_Base.docx (member's profile and risk category)
+* Wellness_Campaign_Recommendation_Catalog 2 2.docx (recommended wellness programs and screenings)
+* On-your-way-to-preventing-type-2-diabetes.pdf (information on diabetes prevention program)"
+KPM00522,0.93244576,High Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+This 57-year-old member has a high risk of developing type 2 diabetes due to their elevated BMI, blood glucose levels, and risk category.
+
+Clinical Recommendations
+------------------------
+• Case management to improve outcomes and reduce avoidable utilization
+• Transitional care to prevent hospital readmissions
+• Medication review to optimize treatment plans
+
+Lifestyle Interventions
+-----------------------
+• Nutrition counseling to support weight management and diabetes prevention
+• Physical-activity interventions to promote healthy habits
+• Weight-management support to address obesity and related health risks
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program to educate and support prevention efforts
+• Active Lifestyle Initiative to promote exercise and healthy habits
+
+Preventive Screenings
+---------------------
+• Preventive screening engagement to encourage routine screenings and preventive care
+
+Business / Care Management Actions
+----------------------------------
+• Chronic disease management to reduce complications and improve long-term outcomes
+• Care coordination to ensure comprehensive and structured disease-management approaches
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+
+* Detailed_Population_Segmentation_Knowledge_Base.docx (population segmentation and clinical significance)
+* smoking_and_diabetes.pdf (smoking's impact on diabetes risk)
+* On-your-way-to-preventing-type-2-diabetes.pdf (general diabetes prevention guidance)"
+KPM04732,0.8746153,High Risk,High-Risk Chronic Members,"Risk Summary
+-------------
+The member is at high risk for developing type 2 diabetes due to their age, BMI, and blood glucose levels. They are also non-smokers, which reduces their risk.
+
+Clinical Recommendations
+------------------------
+• Consider the Diabetes Prevention Program for education, nutrition, and prevention support.
+• Monitor and manage blood glucose levels to prevent complications.
+
+Lifestyle Interventions
+-----------------------
+• Encourage weight management support and nutrition counseling.
+• Implement physical-activity interventions to reduce risk.
+
+Recommended Wellness Programs
+-----------------------------
+• The Diabetes Prevention Program
+• Healthy Aging Program (for older adults)
+• Preventive Screening Program (for routine screening and preventive engagement)
+
+Preventive Screenings
+---------------------
+• Conduct regular blood glucose monitoring and screenings.
+• Monitor and manage blood pressure to prevent hypertension.
+
+Business / Care Management Actions
+----------------------------------
+• Implement chronic disease management and diabetes education.
+• Review medications and coordinate care to reduce complications.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved sources, particularly the ""Detailed_Population_Segmentation_Knowledge_Base.docx"", ""smoking_and_diabetes.pdf"", and the ""On-your-way-to-preventing-type-2-diabetes.pdf""."
+KPM08953,0.94157344,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 57-year-old individual with a BMI of 36.7 and hypertension, you are at a high risk for developing type 2 diabetes, with a predicted probability of 0.94157344.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly
+• Consider participating in a Diabetes Prevention Program
+
+Lifestyle Interventions
+-----------------------
+• Participate in the Active Lifestyle Initiative to promote physical activity and healthy habits
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program
+• Healthy Aging Program
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program for members requiring routine screening and preventive engagement
+
+Business / Care Management Actions
+----------------------------------
+• Refer to specialists, such as registered dietitians or mental health counselors, if necessary
+• Consider enrolling in the National DPP if you have prediabetes
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved sources, particularly the smoking_and_diabetes.pdf, WHO-HEP-HPR-RUN-2021.2-eng.pdf, On-your-way-to-preventing-type-2-diabetes.pdf, and the Detailed_Population_Health_Strategy_Guide.docx. These sources highlight the importance of monitoring blood glucose levels, participating in lifestyle interventions, and enrolling in wellness programs to prevent type 2 diabetes."
+KPM02328,0.89698696,Low Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+This 63-year-old member is at low risk for developing type 2 diabetes, with a predicted probability of 0.89698696. They have hypertension, a BMI of 41.0, and blood glucose levels of 125.0 mg/dL. They are a non-smoker and have no other chronic conditions.
+
+Clinical Recommendations
+------------------------
+• Hypertension Awareness Program: Given the member's hypertension, it is recommended that they participate in the Hypertension Awareness Program to monitor and educate them on their condition.
+• Care Management Program: As the member has multiple chronic conditions, they would benefit from the Care Management Program to ensure coordinated care and reduce avoidable utilization.
+
+Lifestyle Interventions
+-----------------------
+• Weight-management support: Given the member's BMI of 41.0, it is recommended that they receive weight-management support to help them achieve a healthier weight.
+• Nutrition counseling: The member would benefit from nutrition counseling to help them develop healthy eating habits.
+• Physical-activity interventions: As the member has no physical activity risk, it is recommended that they participate in physical-activity interventions to improve their overall health.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: Given the member's risk category, it is recommended that they participate in the Diabetes Prevention Program to educate them on preventing type 2 diabetes.
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program: As the member has multiple chronic conditions, it is recommended that they participate in the Preventive Screening Program to ensure they receive routine screenings and preventive engagement.
+
+Business / Care Management Actions
+----------------------------------
+• Case management: The member would benefit from case management to ensure that their care is coordinated and that they receive the necessary support to manage their chronic conditions.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+- Detailed_Population_Segmentation_Knowledge_Base.docx
+- Wellness_Campaign_Recommendation_Catalog 2 2.docx
+- WHO-HEP-HPR-RUN-2021.2-eng.pdf"
+KPM09714,0.83866334,High Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+This individual is 65 years old and has a BMI of 35.2, indicating obesity. Their blood glucose level is 133.0, which is slightly elevated. They are not a smoker and do not have hypertension. The risk category is high risk, with a predicted probability of 0.83866334.
+
+Clinical Recommendations
+------------------------
+• Diabetes Prevention Program: Given the individual's elevated glucose level and BMI, this program could be beneficial in preventing type 2 diabetes.
+• Healthy Aging Program: As the individual is 65 years old, this program could be helpful in promoting healthy aging.
+
+Lifestyle Interventions
+-----------------------
+• Active Lifestyle Initiative: This initiative could help the individual engage in regular exercise and improve their physical activity levels.
+• Weight-management support: Given the individual's obesity, weight management support could be beneficial in reducing their BMI.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: This program could be beneficial in preventing type 2 diabetes and improving overall health.
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program: This program could help the individual receive routine screenings and preventive engagement.
+
+Business / Care Management Actions
+----------------------------------
+• Case management: This individual may require close monitoring and structured disease management approaches to reduce complications and improve long-term outcomes.
+• Care coordination: Care coordination could be beneficial in ensuring that this individual receives comprehensive care and support.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the Wellness Campaign Recommendation Catalog, which suggests programs and interventions for high-risk individuals. The On-your-way-to-preventing-type-2-diabetes.pdf document also highlights the importance of diabetes prevention and management."
+KPM03932,0.9780483,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 59-year-old member with a BMI of 33.3 and blood glucose level of 98.0, you are considered high risk for developing type 2 diabetes. Your risk category is high, with a predicted probability of 0.9780483.
+
+Clinical Recommendations
+------------------------
+• Recommendation 1: Target Diabetes Prevention - Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs for members with elevated diabetes risk indicators.
+• Recommendation 2: Focus on Multi-Chronic Members - Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions.
+• Recommendation 3: Expand Lifestyle Programs - Increase wellness, exercise, and health-coaching programs to reduce exercise-related risk.
+
+Lifestyle Interventions
+-----------------------
+Information not found in the knowledge base.
+
+Recommended Wellness Programs
+-----------------------------
+Information not found in the knowledge base.
+
+Preventive Screenings
+---------------------
+Information not found in the knowledge base.
+
+Business / Care Management Actions
+----------------------------------
+• Action 1: Monitor high medication utilizers and provide medication review and adherence support.
+• Action 2: Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions.
+• Action 3: Develop targeted preventive interventions for members aged 60 years and older.
+
+Source-Based Reasoning
+----------------------
+Recommendations 1-3 are based on the retrieved context's Business Recommendations and RAG Knowledge Assets. The information on diabetes prevention, multi-chronic member management, and lifestyle programs is retrieved from the Preventive Intervention and Wellness Playbooks, Diabetes Prevention Playbook, and Lifestyle Improvement Playbook."
+KPM05496,0.99303466,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 71-year-old member is at high risk for diabetes due to their elevated BMI and blood glucose levels. They do not have hypertension or smoke, which are positive factors.
+
+Clinical Recommendations
+------------------------
+• Recommendation 1: Target Diabetes Prevention
+• Recommendation 2: Focus on Multi-Chronic Members
+• Recommendation 3: Expand Lifestyle Programs
+
+Lifestyle Interventions
+-----------------------
+• Intervention 1: Nutrition education and weight-management support
+• Intervention 2: Physical activity promotion
+• Intervention 3: Preventive screening engagement
+
+Recommended Wellness Programs
+-----------------------------
+• Program 1: Healthy Aging Playbook
+• Program 2: Diabetes Prevention Playbook
+• Program 3: Lifestyle Improvement Playbook
+
+Preventive Screenings
+---------------------
+• Screening 1: Blood glucose monitoring
+• Screening 2: HbA1c testing
+• Screening 3: Physical activity assessment
+
+Business / Care Management Actions
+----------------------------------
+• Action 1: Prioritize senior members
+• Action 2: Develop targeted preventive interventions for members aged 60 years and older
+• Action 3: Monitor high medication utilizers and provide medication review and adherence support
+
+Source-Based Reasoning
+----------------------
+Recommendations 1-3 are supported by the Detailed Preventive Intervention Playbooks, while Program 1-3 are based on the Preventive Intervention and Wellness Playbooks. Action 1-3 are supported by the Business Recommendations and RAG Knowledge Assets."
+KPM08154,0.8711381,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This member is 68 years old and has a high risk category with a predicted probability of 0.8711381. Their blood glucose level is 125.0, and their BMI is 48.7, indicating a high risk for developing type 2 diabetes.
+
+Clinical Recommendations
+------------------------
+• Diabetes Prevention Program: Given the member's high risk category and elevated blood glucose level, a diabetes prevention program can help prevent the development of type 2 diabetes.
+• Care Management Program: Considering the member's multiple chronic conditions and complex care needs, a care management program can provide personalized care and support.
+
+Lifestyle Interventions
+-----------------------
+• Active Lifestyle Initiative: Encouraging the member to engage in regular physical activity can help improve their overall health and reduce the risk of developing type 2 diabetes.
+• Healthy Aging Program: As the member is 68 years old, a healthy aging program can provide guidance on preventive care and healthy aging strategies.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program
+• Active Lifestyle Initiative
+• Healthy Aging Program
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program: Regular screening is essential for members with multiple chronic conditions, and a preventive screening program can help identify potential health issues early on.
+
+Business / Care Management Actions
+----------------------------------
+• Care Management Program: Implementing a care management program can help manage the member's multiple chronic conditions and complex care needs.
+• Eligibility Disclaimer: Confirm the member's eligibility and participation requirements for the recommended programs and services.
+
+Source-Based Reasoning
+----------------------
+The retrieved sources that support the recommendations include:
+
+* On-your-way-to-preventing-type-2-diabetes.pdf: This source provides information on preventing type 2 diabetes, which is relevant to the member's high risk category and elevated blood glucose level.
+* Wellness_Campaign_Recommendation_Catalog 2 2.docx: This source provides a catalog of wellness programs that can help the member achieve their health goals, including the Diabetes Prevention Program, Active Lifestyle Initiative, and Healthy Aging Program.
+* smoking_and_diabetes.pdf: This source provides information on the impact of smoking on diabetes, which is relevant to the member's high risk category and elevated blood glucose level.
+* WHO-HEP-HPR-RUN-2021.2-eng.pdf: This source provides information on the importance of physical activity and sedentary behaviors, which is relevant to the member's high risk category and elevated BMI."
+KPM04417,0.82779115,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 64-year-old individual with a BMI of 34.8 and blood glucose level of 96.0, you are at high risk for developing type 2 diabetes. Your predicted probability is 0.82779115, indicating a strong likelihood of developing the condition.
+
+Clinical Recommendations
+------------------------
+• Refer to a registered dietitian or mental health counselor to address specific challenges and develop a personalized plan to manage risk factors.
+• Consider joining the Diabetes Prevention Program to receive education, nutrition, and prevention support.
+
+Lifestyle Interventions
+-----------------------
+• Encourage active lifestyle habits through the Active Lifestyle Initiative to promote exercise and healthy habits.
+• Support healthy aging through the Healthy Aging Program, focusing on preventive care and healthy aging support.
+
+Recommended Wellness Programs
+-----------------------------
+• The Diabetes Prevention Program, targeting elevated glucose, HbA1c, and BMI.
+• The Healthy Aging Program, targeting older adults.
+
+Preventive Screenings
+---------------------
+• No specific screenings recommended based on the provided context.
+
+Business / Care Management Actions
+----------------------------------
+• No specific actions recommended based on the provided context.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+
+* The Wellness Campaign Recommendation Catalog, which provides information on various wellness programs and initiatives.
+* The Diabetes Prevention Program, which is a recognized program for preventing type 2 diabetes.
+* The context provides general information on smoking and its effects on type 2 diabetes, which may inform clinical recommendations.
+
+Note: There is no specific information on hypertension or prediabetes in the provided context. Therefore, no recommendations are made for these conditions."
+KPM03924,0.88519907,High Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+As a 70-year-old member with a high risk category, elevated blood glucose (123.0), and a BMI of 30.1, I am at a higher risk for chronic diseases such as diabetes and hypertension.
+
+Clinical Recommendations
+------------------------
+• Consider enrolling in the Diabetes Prevention Program to receive education, nutrition, and prevention support.
+• Consult with a healthcare provider to discuss medication review, care coordination, and comprehensive care-management support.
+
+Lifestyle Interventions
+-----------------------
+• Engage in physical activity and healthy habits through the Active Lifestyle Initiative.
+• Participate in the Healthy Aging Program to receive preventive care and support for healthy aging.
+
+Recommended Wellness Programs
+-----------------------------
+• Consider joining the National DPP (if eligible) for diabetes prevention education and support.
+• Look into online communities or support groups to share goals and challenges with others.
+
+Preventive Screenings
+---------------------
+• Participate in routine screening and preventive engagement through the Preventive Screening Program.
+
+Business / Care Management Actions
+----------------------------------
+• Implement case management, transitional care, readmission prevention, utilization management, and coordinated care planning to reduce avoidable utilization.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the Wellness Campaign Recommendation Catalog, On-your-way-to-preventing-type-2-diabetes.pdf, and the WHO-HEP-HPR-RUN-2021.2-eng.pdf."
+KPM06094,0.82738316,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 75-year-old member with a BMI of 25.8 and blood glucose level of 113.0, you are considered to be at a low risk category. However, it is essential to maintain a healthy lifestyle to prevent future disease progression.
+
+Clinical Recommendations
+------------------------
+• Annual wellness visits to monitor health status and prevent potential health issues.
+• Preventive screenings to detect any underlying conditions early on.
+
+Lifestyle Interventions
+-----------------------
+• Regular exercise to maintain physical activity and overall health.
+• Healthy nutrition to support a balanced diet and prevent chronic conditions.
+
+Recommended Wellness Programs
+-----------------------------
+• Healthy Aging Program to focus on preventive care and healthy aging support.
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program to ensure routine screening and preventive engagement.
+
+Business / Care Management Actions
+----------------------------------
+• Care Management Program to address multiple chronic conditions and complex care needs.
+
+Source-Based Reasoning
+----------------------
+The recommended actions are based on the Member Profile and the Wellness Campaign Recommendation Catalog, which provides guidance on preventing disease progression and promoting overall health."
+KPM08091,0.94372433,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 67-year-old member is at high risk for developing type 2 diabetes, with a BMI of 30.1 and blood glucose level of 99.0. They are a non-smoker and do not have hypertension.
+
+Clinical Recommendations
+------------------------
+• Recommend a diabetes prevention program, such as the National DPP, to help prevent the development of type 2 diabetes.
+
+Lifestyle Interventions
+-----------------------
+• Encourage a healthy lifestyle, including regular physical activity and a balanced diet, to help manage weight and reduce the risk of developing type 2 diabetes.
+
+Recommended Wellness Programs
+-----------------------------
+• Consider enrolling the member in the Diabetes Prevention Program, which offers education, nutrition, and prevention support.
+
+Preventive Screenings
+---------------------
+• Recommend that the member undergo routine screening and preventive engagement to monitor their health and detect any potential issues early.
+
+Business / Care Management Actions
+----------------------------------
+• Work with the member's healthcare provider to develop a personalized care plan that takes into account their risk factors and health goals.
+
+Source-Based Reasoning
+----------------------
+The recommendation to enroll the member in the Diabetes Prevention Program is supported by the retrieved context, which highlights the program's benefits, including education, nutrition, and prevention support. The recommendation to encourage a healthy lifestyle and undergo routine screening is also supported by the context, which emphasizes the importance of physical activity, a balanced diet, and regular monitoring to manage health and prevent the development of chronic conditions."
+KPM01365,0.9970495,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 60-year-old member with a BMI of 43.8 and blood glucose level of 105.0, you are at a high risk of developing type 2 diabetes. Your predicted probability is 0.9970495, indicating a significant likelihood of progressing to the condition.
+
+Clinical Recommendations
+------------------------
+• Consult with your doctor to discuss your health goals and create a personalized plan to manage your risk factors.
+• Consider asking for a referral to a registered dietitian or mental health counselor to help you deal with specific challenges.
+
+Lifestyle Interventions
+-----------------------
+• Engage in physical activity promotion to improve your overall health and reduce your risk of developing type 2 diabetes.
+• Participate in nutrition education and weight-management support to help you achieve a healthy weight and reduce your risk of developing type 2 diabetes.
+
+Recommended Wellness Programs
+-----------------------------
+• Consider joining the National DPP (Diabetes Prevention Program) if recommended by your doctor.
+• Participate in wellness education and care coordination to improve your overall health and reduce your risk of developing type 2 diabetes.
+
+Preventive Screenings
+---------------------
+• Engage in preventive screening engagement to monitor your health and reduce your risk of developing type 2 diabetes.
+
+Business / Care Management Actions
+----------------------------------
+• Expand prevention programs and strengthen wellness participation to address the high-risk population.
+• Focus care-management resources on higher-risk groups, such as those with elevated glucose, HbA1c, or BMI.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved context, particularly the ""Diabetes Prevention Playbook"" and the ""Population Health Findings and Strategic Guidance"" sections. These sources emphasize the importance of early intervention, lifestyle interventions, and preventive screenings to reduce the risk of developing type 2 diabetes."
+KPM05438,0.8409004,High Risk,Emerging Risk Members,"Here is the response:
+
+Risk Summary
+-------------
+This 59-year-old member is at high risk for developing type 2 diabetes, with a BMI of 29.7 and blood glucose level of 87.0. They are a non-smoker, which reduces their risk.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels and provide guidance on lifestyle changes to manage blood sugar levels.
+• Consider referring the member to a registered dietitian or mental health counselor to help them manage their health goals.
+
+Lifestyle Interventions
+-----------------------
+• Encourage the member to engage in regular physical activity to help manage their weight and reduce their risk of developing type 2 diabetes.
+• Provide education on healthy eating habits and encourage the member to adopt a balanced diet.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: This program targets elevated glucose, HbA1c, and BMI, and provides education, nutrition, and prevention support.
+• Active Lifestyle Initiative: This program targets exercise risk and provides activity coaching and healthy habits.
+
+Preventive Screenings
+---------------------
+• Preventive Screening Program: This program targets members requiring routine screening and preventive engagement.
+
+Business / Care Management Actions
+----------------------------------
+• Refer the member to a registered dietitian or mental health counselor for additional support and guidance.
+• Consider referring the member to the National DPP if they have prediabetes.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the retrieved sources, including the ""On-your-way-to-preventing-type-2-diabetes.pdf"" and the ""Wellness_Campaign_Recommendation_Catalog 2 2.docx""."
+KPM02814,0.91701764,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+The member is at a high risk of developing type 2 diabetes, with a predicted probability of 0.91701764.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly to track progress and make necessary adjustments.
+• Consider referring the member to a registered dietitian or mental health counselor for guidance on managing their health goals.
+
+Lifestyle Interventions
+-----------------------
+• Encourage the member to engage in regular physical activity to help manage their weight and blood glucose levels.
+• Support the member in adopting a healthy diet and nutrition plan to help prevent the development of type 2 diabetes.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: Targeting elevated glucose, HbA1c, and BMI, with benefits including education, nutrition, and prevention support.
+• Healthy Aging Program: Targeting older adults, with benefits including preventive care and healthy aging support.
+
+Preventive Screenings
+---------------------
+• No specific screenings are recommended for this member.
+
+Business / Care Management Actions
+----------------------------------
+• Refer the member to a healthcare provider for personalized guidance and direction on meeting their health goals.
+• Encourage the member to participate in wellness programs and engage in regular physical activity to help manage their risk factors.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following retrieved sources:
+
+* On-your-way-to-preventing-type-2-diabetes.pdf: This source provides information on the importance of diet and nutrition in preventing type 2 diabetes, as well as the benefits of regular physical activity.
+* Wellness_Campaign_Recommendation_Catalog 2 2.docx: This source provides a list of recommended wellness programs, including the Diabetes Prevention Program, which targets elevated glucose, HbA1c, and BMI."
+KPM00516,0.9519898,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This 63-year-old member is at high risk for developing type 2 diabetes, with a predicted probability of 0.9519898. Their BMI is 32.1, and blood glucose level is 100.0.
+
+Clinical Recommendations
+------------------------
+• Conduct a thorough physical examination to rule out any underlying conditions that may be contributing to the member's risk factors.
+• Prescribe a personalized exercise plan to help the member achieve and maintain a healthy weight.
+• Monitor the member's blood glucose levels regularly to track any changes or trends.
+
+Lifestyle Interventions
+-----------------------
+• Encourage the member to adopt a healthy diet and exercise regimen to manage their risk factors.
+• Recommend that the member join a wellness program or support group to stay motivated and accountable.
+• Suggest that the member consider consulting with a registered dietitian or mental health counselor to develop a personalized plan for managing their risk factors.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program (Target: Elevated glucose, HbA1c, BMI. Benefits: Education, nutrition, prevention support.)
+• Active Lifestyle Initiative (Target: Exercise risk. Benefits: Activity coaching and healthy habits.)
+• Healthy Aging Program (Target: Older adults. Benefits: Preventive care and healthy aging support.)
+
+Preventive Screenings
+---------------------
+• Conduct regular blood glucose level checks to monitor any changes or trends.
+• Perform routine physical examinations to identify any underlying conditions that may be contributing to the member's risk factors.
+
+Business / Care Management Actions
+----------------------------------
+• Refer the member to a registered dietitian or mental health counselor for personalized guidance and support.
+• Schedule regular check-ins with the member to monitor their progress and provide ongoing support.
+• Consider referring the member to a specialist, such as an endocrinologist, if their risk factors persist or worsen.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+
+* The Diabetes Prevention Program, which targets elevated glucose, HbA1c, and BMI, is supported by the World Health Organization's (WHO) surveillance system for non-communicable disease (NCD) risk factors.
+* The Active Lifestyle Initiative, which targets exercise risk, is supported by the WHO's work on developing methods and instruments to assess physical activity in children and adults.
+* The Healthy Aging Program, which targets older adults, is supported by the WHO's guidance on monitoring physical activity and sedentary behaviors."
+KPM07476,0.9382897,High Risk,Emerging Risk Members,"Risk Summary
+-------------
+This member is at high risk for developing type 2 diabetes, with a predicted probability of 0.9382897. They are 55 years old, have a BMI of 36.3, and smoke, which increases their risk of developing the disease.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly
+• Consider nutrition education and weight-management support to reduce risk of developing type 2 diabetes
+• Encourage healthy nutrition and regular exercise to manage overall health
+
+Lifestyle Interventions
+-----------------------
+• Provide resources to quit smoking to reduce risk of developing type 2 diabetes
+• Encourage physical activity promotion and wellness engagement to improve overall health
+• Support behavior-change support and healthy habit development to manage lifestyle-risk scores
+
+Recommended Wellness Programs
+-----------------------------
+• National DPP (Diabetes Prevention Program) for individuals with prediabetes
+• Preventive screenings for early detection of chronic conditions
+• Healthy-aging resources and wellness education for older adults
+
+Preventive Screenings
+---------------------
+• Regular blood glucose monitoring
+• Preventive screenings for early detection of chronic conditions
+
+Business / Care Management Actions
+----------------------------------
+• Consider referring member to registered dietitian or mental health counselor for additional support
+• Provide resources for members to share health goals and challenges with others for increased accountability
+• Encourage annual wellness visits and preventive screenings to monitor health and detect chronic conditions early
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+
+* The information on smoking and type 2 diabetes is based on the ""smoking_and_diabetes.pdf"" source.
+* The clinical recommendations for nutrition education, weight-management support, and physical activity promotion are based on the ""Detailed_Preventive_Intervention_Playbooks.docx"" source.
+* The recommended wellness programs, preventive screenings, and business/care management actions are based on the ""Detailed_Population_Segmentation_Knowledge_Base.docx"" and ""On-your-way-to-preventing-type-2-diabetes.pdf"" sources."
+KPM00708,0.92589694,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 47-year-old individual with a BMI of 40.6 and blood glucose level of 95.0, you are at a low risk category with a predicted probability of 0.92589694.
+
+Clinical Recommendations
+------------------------
+• Target Diabetes Prevention: Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs.
+
+Lifestyle Interventions
+-----------------------
+• None mentioned in the retrieved context.
+
+Recommended Wellness Programs
+-----------------------------
+• None mentioned in the retrieved context.
+
+Preventive Screenings
+---------------------
+• None mentioned in the retrieved context.
+
+Business / Care Management Actions
+----------------------------------
+• None mentioned in the retrieved context.
+
+Source-Based Reasoning
+----------------------
+The recommendation for target diabetes prevention is supported by the Business Recommendations Repository, specifically Recommendation 1: Target Diabetes Prevention, which prioritizes diabetes screening, glucose monitoring, nutrition support, and weight-management programs."
+KPM07950,0.8476503,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 42-year-old with a BMI of 31.5 and a blood glucose level of 84.0, you are at a low risk for developing type 2 diabetes. However, it's essential to continue monitoring your blood glucose levels and engaging in healthy lifestyle habits to prevent disease progression.
+
+Clinical Recommendations
+------------------------
+• Monitor blood glucose levels regularly.
+• Continue to engage in healthy lifestyle habits, including regular exercise and healthy nutrition.
+
+Lifestyle Interventions
+-----------------------
+• Continue to engage in regular exercise.
+• Focus on healthy nutrition and meal planning.
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program: Targeted at individuals with elevated glucose, HbA1c, and BMI, this program provides education, nutrition, and prevention support.
+
+Preventive Screenings
+---------------------
+• Annual wellness visits and preventive screenings are recommended to monitor health and detect any potential issues early.
+
+Business / Care Management Actions
+----------------------------------
+• Consider enrolling in the Diabetes Prevention Program to receive targeted support and education.
+• Continue to work with your healthcare provider to monitor your progress and make adjustments as needed.
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+• On-your-way-to-preventing-type-2-diabetes.pdf
+• Wellness_Campaign_Recommendation_Catalog 2 2.docx
+• Detailed_Population_Segmentation_Knowledge_Base.docx"
+KPM02993,0.8883983,High Risk,High-Cost Utilization Members,"Risk Summary
+-------------
+This 90-year-old member has a high risk category (0.8883983) due to their age, BMI (34.8), and hypertension. They have a blood glucose level of 108.0, indicating a risk of developing type-2 diabetes.
+
+Clinical Recommendations
+------------------------
+• Chronic disease management
+• Diabetes education
+• Medication review
+• Care coordination
+• Comprehensive care-management support
+
+Lifestyle Interventions
+-----------------------
+• Weight-management support
+• Nutrition counseling
+• Diabetes-prevention education
+• Preventive screening engagement
+• Physical-activity interventions
+
+Recommended Wellness Programs
+-----------------------------
+• Diabetes Prevention Program
+• Active Lifestyle Initiative
+• Healthy Aging Program
+
+Preventive Screenings
+---------------------
+• None specified
+
+Business / Care Management Actions
+----------------------------------
+• Case management
+• Transitional care
+• Readmission prevention
+• Utilization management
+• Coordinated care planning
+
+Source-Based Reasoning
+----------------------
+The recommendations are supported by the following sources:
+
+* The Wellness Campaign Recommendation Catalog, which suggests the Diabetes Prevention Program, Active Lifestyle Initiative, and Healthy Aging Program.
+* The Detailed_Population_Segmentation_Knowledge_Base.docx, which highlights the importance of chronic disease management and comprehensive care-management support.
+* On-your-way-to-preventing-type-2-diabetes.pdf, which emphasizes the importance of diabetes education and prevention.
+
+Note: Information not found in the knowledge base."
+KPM05313,0.80757326,Low Risk,Emerging Risk Members,"Risk Summary
+-------------
+As a 50-year-old smoker with a BMI of 25.7 and blood glucose level of 77.0, you are at a low risk for developing diabetes. However, smoking is a significant risk factor for type 2 diabetes, and you should consider quitting.
+
+Clinical Recommendations
+------------------------
+• Recommendation 1: Target Diabetes Prevention - Prioritize diabetes screening, glucose monitoring, nutrition support, and weight-management programs for members with elevated diabetes risk indicators.
+• Recommendation 2: Focus on Multi-Chronic Members - Provide enhanced care-management services and regular follow-up for members with multiple chronic conditions (hypertension in your case).
+• Recommendation 3: Expand Lifestyle Programs - Increase wellness, exercise, and health-coaching programs to reduce exercise-related risk and promote overall health.
+
+Lifestyle Interventions
+-----------------------
+• Intervention 1: Quit Smoking - Consider seeking help to quit smoking, as it is a significant risk factor for type 2 diabetes.
+• Intervention 2: Healthy Lifestyle Changes - Make healthy lifestyle changes, such as eating a balanced diet, exercising regularly, and maintaining a healthy weight, to reduce your risk of developing diabetes.
+• Intervention 3: None (no specific interventions mentioned)
+
+Recommended Wellness Programs
+-----------------------------
+• Program 1: None (no specific programs mentioned)
+• Program 2: None (no specific programs mentioned)
+• Program 3: None (no specific programs mentioned)
+
+Preventive Screenings
+---------------------
+• Screening 1: Diabetes Screening - Prioritize diabetes screening and glucose monitoring to identify any potential issues early on.
+• Screening 2: None (no specific screenings mentioned)
+• Screening 3: None (no specific screenings mentioned)
+
+Business / Care Management Actions
+----------------------------------
+• Action 1: Medication Management - Monitor your medication utilization and provide medication review and adherence support, as you have hypertension and are at risk for developing type 2 diabetes.
+• Action 2: None (no specific actions mentioned)
+• Action 3: None (no specific actions mentioned)
+
+Source-Based Reasoning
+----------------------
+The clinical recommendations and lifestyle interventions are supported by the retrieved sources, including ""Business Recommendations and RAG Knowledge Assets"" and ""smoking_and_diabetes.pdf"". The preventive screenings and business/care management actions are supported by the ""Top Risk Drivers Report"" and ""Disease Prediction Framework"" from the ""RAG Assets"" section."
